@@ -1,0 +1,182 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  height: 60px;
+  background-color: black;
+}
+h1 {
+  position: absolute;
+  float: left;
+  padding: 3px;
+  margin-left: 2%;
+  margin-top: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: darkorange;
+}
+span {
+  color: forestgreen;
+}
+
+ul {
+  width: auto;
+  float: right;
+  border-style: solid;
+  margin-top: 1px; /*5px*/
+  margin-bottom: -1vw;
+  list-style: circle;
+}
+
+li {
+  display: inline-block;
+  padding: 15px 15px;
+}
+
+a {
+  text-align: center;
+  color: #1fc833;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1vw;
+}
+
+a.hover {
+  color: red;
+  transition: 0.5s;
+}
+
+div.containerfooter {
+  bottom: 0;
+  margin-top: -15px;
+  display: inline-block;
+  background-color: palegreen;
+  width: 100%;
+  height: 300px;
+}
+
+.profilepic {
+  float: left;
+  width: 198px;
+  height: auto;
+  padding-top: 2px;
+  border-radius: 90px;
+}
+.Headeraboutme {
+  font-weight: bolder;
+}
+.paboutme {
+  border: solid;
+  padding-left: 13px;
+  font-style: italic;
+  width: 500px;
+  height: 60px;
+  margin-left: 206px;
+  margin-top: 18px;
+}
+.detailsBox {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.downpart {
+  align-items: center;
+  padding-left: 755px;
+  padding-top: -5px;
+  margin-left: 240px;
+}
+
+.dfooter {
+  margin-top: 350px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column-1 {
+  float: left;
+  width: 25%;
+  background-color: silver;
+  height: 338px;
+}
+.column-middle {
+  height: 338px;
+  width: 50%;
+  float: left;
+}
+.image1 {
+  height: 337px;
+  width: 100%;
+}
+
+.column-3 {
+  float: left;
+  width: 25%;
+  color: blueviolet;
+  background-color: darkgoldenrod;
+  height: 338px;
+}
+* {
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 768px) {
+  .column-1,
+  .column-middle,
+  .column-3,
+  .column-list,
+  .t1,
+  .t2,
+  .t3,
+  .t4 {
+    width: 100%;
+  }
+}
+
+.row {
+  height: 15%;
+  margin-top: 100px;
+}
+
+ul.column-list {
+  float: left;
+  width: auto;
+  border: none;
+  list-style-type: square;
+}
+
+.t1,
+.t2,
+.t3,
+.t4 {
+  display: revert;
+  font-size: 30%;
+}
+
+section {
+  width: 100%;
+  display: inline;
+}
+.lists {
+  display: flex;
+  width: 50%;
+  margin-left: 253px;
+  margin-top: -85px;
+}
+
+.first-a,
+.second-a,
+.third-a,
+.first-b,
+.second-b,
+.third-b,
+.first-c,
+.second-c,
+.third-c {
+  color: black;
+
+  font-size: 9px;
+}

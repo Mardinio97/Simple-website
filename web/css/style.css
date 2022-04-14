@@ -1,0 +1,207 @@
+/*Khalil Mardini-AO1*/
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  height: 60px;
+  background-color: black;
+}
+h1 {
+  position: absolute;
+  float: left;
+  padding: 3px;
+  margin-left: 2%;
+  margin-top: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: darkorange;
+}
+span {
+  color: forestgreen;
+}
+
+ul {
+  width: auto;
+  float: right;
+  border-style: solid;
+  margin-top: 8px;
+  height: 10px;
+  /*margin-top: 1px; /*5px*/
+  /*margin-bottom: -1vw; */
+}
+
+li {
+  display: inline-block;
+  padding: 15px 15px;
+}
+
+a {
+  text-align: center;
+  color: #1fc833;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1vw;
+}
+
+a.hover {
+  color: red;
+  transition: 0.5s;
+}
+.container0 {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  margin-bottom: 10px;
+  margin-top: 67px;
+  padding-top: 133px;
+}
+
+.MainImg {
+  width: 100%;
+  height: 10%;
+  margin-top: -200px;
+  padding-top: 0%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+img {
+  max-width: 100%;
+  padding-top: 20%;
+  border-radius: 8px;
+}
+
+.containt {
+  font-size: 1.2vw;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 30px;
+  font-weight: 100;
+}
+
+.container1 {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  margin-top: 50px;
+  background-color: orange;
+}
+
+.containt1 {
+  float: left;
+  font-size: 1.1vw;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 10px;
+}
+.Heading1 {
+  font-style: oblique;
+  font-size: 1.5vw;
+  font-weight: bold;
+}
+.image1 {
+  max-width: 100%;
+  max-height: auto;
+}
+
+.imagesize {
+  width: 70%;
+  height: auto;
+  float: right;
+  max-width: 100%;
+  padding-top: -20%;
+  margin-right: 20px;
+  border-radius: 8px;
+}
+
+div.containerfooter {
+  margin-top: -15px;
+  display: inline-block;
+  background-color: palegreen;
+  width: 100%;
+  height: 200px;
+}
+
+.profilepic {
+  float: left;
+  width: 198px;
+  height: auto;
+  padding-top: 2px;
+  border-radius: 90px;
+}
+.Headeraboutme {
+  font-weight: bolder;
+}
+.paboutme {
+  border: solid;
+  padding-left: 13px;
+  font-style: italic;
+  width: 500px;
+  height: 60px;
+  margin-left: 206px;
+  margin-top: 18px;
+}
+.detailsBox {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.downpart {
+  align-items: center;
+  padding-left: 775px;
+  padding-top: -5px;
+  margin-left: 240px;
+}
+
+/*.Footer {
+  width: 100vx;
+  display: block;
+  overflow: hidden;
+
+  padding: 50px 0;
+  box-sizing: border-box;
+  background-color: blanchedalmond;
+}
+
+.inner_footer {
+  display: block;
+  margin: 0 auto;
+  width: 1100px;
+  height: 100%;
+}
+.inner_footer.logo_container {
+  float: left;
+  height: 100%;
+  display: block;
+  width: 100%;
+}
+.inner_footer.logo_container img {
+  width: 30px;
+  height: auto;
+}
+
+.inner_footer.footer_third {
+  width: 100px;
+  margin-right: 10px;
+  float: left;
+  height: 100%;
+}
+.inner_footer.footer_third:last-child {
+  margin-right: 15px;
+}
+
+.inner_footer .footer_third h1 {
+  font-family: "arial";
+  font-size: 8px;
+  color: rgba(247, 19, 19, 0.835);
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}*/

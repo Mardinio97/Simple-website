@@ -1,0 +1,2 @@
+Hi :D
+please try to open the /web/ folder in the visual studio rather than a01-website-master so you will not face issues with hard absoult links .

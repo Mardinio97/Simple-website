@@ -1,0 +1,126 @@
+body,
+html {
+  background: url(https://cutewallpaper.org/21/background-images-html/Best-51-HTML-Backgrounds-on-HipWallpaper-HTML-Wallpaper-.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  height: 60px;
+  background-color: black;
+}
+h1 {
+  position: absolute;
+  float: left;
+  padding: 3px;
+  margin-left: 2%;
+  margin-top: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: darkorange;
+}
+span {
+  color: forestgreen;
+}
+
+ul {
+  width: auto;
+  float: right;
+  border-style: solid;
+  margin-top: 8px;
+}
+
+li {
+  display: inline-block;
+  padding: 15px 15px;
+}
+
+a {
+  text-align: center;
+  color: #1fc833;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1vw;
+}
+
+a.hover {
+  color: red;
+  transition: 0.5s;
+}
+
+body {
+  background-image: url("https://cutewallpaper.org/21/background-images-html/Best-51-HTML-Backgrounds-on-HipWallpaper-HTML-Wallpaper-.jpg");
+  margin: auto;
+}
+.pic-stretch {
+  height: 25vw;
+  width: 30%;
+  margin-bottom: 92px;
+  margin-left: 223px;
+  margin-top: 41px;
+}
+.pic {
+  width: auto;
+  height: 358px;
+}
+.another-pic {
+  position: relative;
+  text-align: center;
+  color: black;
+  margin-top: 200px;
+  margin-left: 235px;
+}
+.pic2 {
+  width: auto;
+  margin-right: 259px;
+}
+
+.Text {
+  position: absolute;
+  font-size: 92%;
+  top: 10px;
+  align-content: center;
+  left: 300px;
+}
+
+div.containerfooter {
+  margin-top: 2px;
+  display: inline-block;
+  background-color: palegreen;
+  width: 100%;
+  height: 200px;
+}
+
+.profilepic {
+  float: left;
+  width: 198px;
+  height: auto;
+  padding-top: 2px;
+  border-radius: 90px;
+}
+.Headeraboutme {
+  font-weight: bolder;
+}
+.paboutme {
+  border: solid;
+  padding-left: 13px;
+  font-style: italic;
+  width: 500px;
+  height: 60px;
+  margin-left: 206px;
+  margin-top: 18px;
+}
+.detailsBox {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.downpart {
+  align-items: center;
+  padding-left: 775px;
+  padding-top: -5px;
+  margin-left: 240px;
+}

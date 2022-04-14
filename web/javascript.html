@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <header>
+    <h1>DJ<span>MARDINI</span></h1>
+    <nav>
+      <ul id="pack">
+        <li id="liste">
+          <a href="artciles.html">Articales</a>
+        </li>
+        <li id="liste1">
+          <a href="image.html">Image</a>
+        </li>
+        <li id="liste2">
+          <a href="form.html">Form</a>
+        </li>
+        <li id="liste3">
+          <a href="table.html">Table</a>
+        </li>
+        <li id="liste4">
+          <a href="column2.html">Column2</a>
+        </li>
+        <li id="liste5">
+          <a href="column3.html">Column3</a>
+        </li>
+        <li id="liste6">
+          <a href="trpography.html">Tropography</a>
+        </li>
+        <li id="liste7">
+          <a href="responsive.html">Responsive</a>
+        </li>
+        <li id="liste8">
+          <a href="javascript.html">Javascript</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <style>
+    html {
+      background: url(https://mcdn.wallpapersafari.com/medium/59/46/bjQ0tO.png);
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      margin: 0;
+      padding: 0;
+    }
+
+    img.Image {
+      float: right;
+      padding-left: 100px;
+      size: 20px;
+    }
+    .imageDiv {
+      width: auto;
+      height: 60px;
+      float: right;
+    }
+
+    header {
+      width: 100%;
+      height: 60px;
+      background-color: black;
+      margin-bottom: 30px;
+    }
+    h1 {
+      position: absolute;
+      float: left;
+      padding: 3px;
+      margin-left: 2%;
+      margin-top: 10px;
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      color: darkorange;
+    }
+    span {
+      color: forestgreen;
+    }
+
+    #pack {
+      display: inline-block;
+      width: auto;
+      float: right;
+      position: inherit;
+      border-style: solid;
+      margin-top: 8px;
+      height: 10px;
+      /*margin-top: 1px; /*5px*/
+      /*margin-bottom: -1vw; */
+    }
+
+    #liste {
+      float: left;
+      display: inline-block;
+      padding: 10px 10px;
+    }
+    #liste1 {
+      float: left;
+      display: inline-block;
+      padding: 10px 10px;
+    }
+    #liste2 {
+      float: left;
+      display: inline-block;
+      padding: 10px 10px;
+    }
+    #liste3 {
+      float: left;
+      display: inline-block;
+      padding: 10px 10px;
+    }
+    #liste4 {
+      float: left;
+      display: inline-block;
+      padding: 10px 10px;
+    }
+    #liste5 {
+      float: left;
+      display: inline-block;
+      padding: 10px 10px;
+    }
+    #liste6 {
+      float: left;
+      display: inline-block;
+      padding: 10px 10px;
+    }
+    #liste7 {
+      float: left;
+      display: inline-block;
+      padding: 10px 10px;
+    }
+    #liste8 {
+      float: left;
+      display: inline-block;
+      padding: 10px 10px;
+    }
+
+    a {
+      text-align: center;
+      color: #1fc833;
+      text-decoration: none;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1.1vw;
+    }
+  </style>
+  <body>
+    <input
+      id="pickCountry"
+      type="button"
+      value="Randomize"
+      onclick="GetCountry();"
+      style="background-color: gold"
+    />
+
+    <div id="output1">
+      <div id="imageDiv">
+        <img
+          id="Image"
+          src="/web/img/79fcf373cc3a452bbe6211a12e5b76e7.jpg"
+          alt=""
+        />
+      </div>
+    </div>
+
+    <div>
+      <p id="output2"></p>
+      <p id="output3"></p>
+      <p id="output4"></p>
+      <p id="output5"></p>
+      <p id="output6"></p>
+      <input type="text" id="userInput" />
+      <input
+        id="button2"
+        type="button"
+        value="Press on me"
+        style="background-color: gold"
+      />
+      <p id="Y"></p>
+      <p id="N"></p>
+      <p id="numCount"></p>
+    </div>
+    <script src="/web/js/main.js"></script>
+  </body>
+</html>

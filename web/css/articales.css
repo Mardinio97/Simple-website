@@ -1,0 +1,79 @@
+body,
+html {
+  background: url(https://mcdn.wallpapersafari.com/medium/59/46/bjQ0tO.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  height: 60px;
+  background-color: black;
+  margin-bottom: 56px;
+}
+h1 {
+  position: absolute;
+  float: left;
+  padding: 3px;
+  margin-left: 2%;
+  margin-top: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: darkorange;
+}
+
+#ftitle {
+  position: absolute;
+  float: left;
+  padding: 3px;
+  margin-left: 2%;
+  margin-top: -42px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: darkorange;
+}
+#stitle {
+  position: absolute;
+  float: left;
+  padding: 3px;
+  margin-left: 2%;
+  margin-top: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: darkorange;
+}
+#ttitle {
+  padding: 14px;
+  margin-top: 42px;
+}
+span {
+  color: forestgreen;
+}
+
+ul {
+  width: auto;
+  float: right;
+  border-style: solid;
+  margin-top: 1px; /*5px*/
+  margin-bottom: -1vw;
+}
+
+li {
+  display: inline-block;
+  padding: 15px 15px;
+}
+
+a {
+  text-align: center;
+  color: #1fc833;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1vw;
+}
+
+img.ClubDj {
+  width: 20%;
+  height: 10%;
+  padding-left: 300px;
+}
